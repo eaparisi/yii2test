@@ -3,7 +3,13 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'basic',
+    'id' => 'YesWeAd',
+    'name' => 'YesWeAd',
+    'version' => '1.0',
+	'timeZone' => 'America/Argentina/Buenos_Aires',
+    'language' => 'es',
+    'sourceLanguage' => 'es',
+    'charset' => 'UTF-8',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
