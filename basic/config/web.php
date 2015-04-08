@@ -51,7 +51,10 @@ if (YII_ENV_DEV) {
     ];
     
     $config['bootstrap'][] = 'gii';
-    $config['modules']['gii'] = 'yii\gii\Module';
+    $config['modules']['gii'] = [
+	    'class' => 'yii\gii\Module',
+	    'allowedIPs' => ['172.17.42.1']
+	];
 }
 
 return $config;
