@@ -13,6 +13,9 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+		'assetManager' => [
+			'appendTimestamp' => true,
+		],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'nw_UkaLp5g-Yw1qg8K0U4NQ9zFw6stOT',

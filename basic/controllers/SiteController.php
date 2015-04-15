@@ -97,6 +97,7 @@ class SiteController extends Controller
     
     public function actionSay($message = 'Hello')
     {
+    	$dumy = 1;
     	return $this->render('say', ['message' => $message]);
     }
     
